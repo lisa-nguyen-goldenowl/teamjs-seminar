@@ -1,6 +1,6 @@
 # Teamjs-seminar notes:
 
-### Alan
+## Alan
 #### oh-my-zsh: framework to configure terminal
 - https://github.com/robbyrussell/oh-my-zsh
 #### Reactotron: debug tool for react-native and react (especially for react-native)
