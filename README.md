@@ -13,3 +13,16 @@
 - https://github.com/webpack-contrib/webpack-bundle-analyzer
 #### ngrok: exposes local servers to the public internet.
 - https://ngrok.com/download
+
+## Nolan (21/11/2019)
+#### FlowJS: library support type checking for data flow similar to TypeScript
+- Homepage: https://flow.org/en/docs/getting-started/
+- Plugin for ESLint to remove warnings when integrating flow: https://github.com/gajus/eslint-plugin-flowtype
+#### PostCSS: preprocessor for CSS that supports plugins
+- Homepage: https://postcss.org/
+- Brief guide:
+    - https://blog.logrocket.com/getting-started-with-postcss-in-2019-484262a4d725/
+    - https://dev.to/puritanic/add-postcss-to-create-react-app--5hj8
+- Common plugins:
+    - [Autoprefixer](https://github.com/postcss/autoprefixer)
+    - [Nested rule](https://github.com/postcss/postcss-nested)
