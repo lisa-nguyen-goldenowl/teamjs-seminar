@@ -26,3 +26,42 @@
 - Common plugins:
     - [Autoprefixer](https://github.com/postcss/autoprefixer)
     - [Nested rule](https://github.com/postcss/postcss-nested)
+## Lisa (26/11/2019)
+#### Fastlane - the easiest way to automate beta deployments and releases for your iOS and Android apps.
+- Homepage: https://docs.fastlane.tools/
+- Artical: https://carloscuesta.me/blog/shipping-react-native-apps-with-fastlane/
+- install:
+    ``` 
+    # Using RubyGems
+
+    sudo gem install fastlane -NV
+
+    # Alternatively using Homebrew
+
+    brew cask install fastlane
+    ```
+    Navigate to your iOS or Android app and run
+
+    ```
+    fastlane init
+    ```
+#### CodePush - a cloud service from Microsoft that gives us the ability to instantly push updates to a react-native application
+- Home page: https://github.com/microsoft/react-native-code-push
+- Artical: https://carloscuesta.me/blog/react-native-meets-codepush/
+- install codepush:
+    ```
+    $ npm i -g code-push-cli
+    $ code-push register
+    ```
+- Add react-native-code-push as a dependency 
+    ```
+    $ yarn add react-native-code-push
+    $ react-native link react-native-code-push
+    ```
+    _Note:no need link in version >0.60 react-native_ 
+
+- Release and deploy
+    ```
+    # code-push release-react <appName> <platform> [options]
+    $ code-push release-react codePushRN-ios ios -d Production
+    ```
