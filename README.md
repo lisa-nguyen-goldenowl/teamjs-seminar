@@ -26,3 +26,11 @@
 - Common plugins:
     - [Autoprefixer](https://github.com/postcss/autoprefixer)
     - [Nested rule](https://github.com/postcss/postcss-nested)
+
+## Lisa (26/12/2019)
+#### Fastlane - the easiest way to automate beta deployments and releases for your iOS and Android apps.
+- Homepage: https://docs.fastlane.tools/
+- Brief guide: https://carloscuesta.me/blog/shipping-react-native-apps-with-fastlane/
+#### Codepush - a cloud service from Microsoft that gives us the ability to instantly push updates to a react-native application
+- Homepage: https://github.com/microsoft/react-native-code-push
+- Brief guide: https://carloscuesta.me/blog/react-native-meets-codepush/
